@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize the colorPrimary attribute to set the ActionBar color -->
+        <item name="colorPrimary">#006D77</item>
+        <!-- Add other style attributes as needed -->
+    </style>
+
+</resources>

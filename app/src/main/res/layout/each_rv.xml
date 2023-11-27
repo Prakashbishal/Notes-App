@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="380sp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20sp"
+    android:layout_marginStart="15dp"
+    android:padding="10dp"
+    android:background="@drawable/rounded_bg_full">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/titleRv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="@drawable/rounded_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Description TextView -->
+    <TextView
+        android:id="@+id/dispRv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:background="@drawable/rounded_background_green"
+        app:layout_constraintStart_toStartOf="@+id/titleRv"
+        app:layout_constraintTop_toBottomOf="@+id/titleRv"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
